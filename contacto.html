@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Consultas, contacto, mensaje, servicios, makeup">
+    <title>Contacto - Agustina Rodriguez</title>
+     <!--Bootstrap CSS-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <!--Estilos propios-->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header id="boxMenu"><!--inicio del encabezado-->
+        <!--logo-->
+        <nav class="navegacion">
+            <!--logo-->
+                <a href="index.html" class="logo">
+                    A.R | artistic make up |
+                </a>
+        <!--inicio barra de menú de navegación-->
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#aboutme">Sobre Mi</a></li>
+                <li><a href="index.html#services">Servicios</a></li>
+                <li><a href="index.html#trabajos">Portfolio</a>
+                    <ul class="submenu">
+                        <li><a href="make_up_social.html">Make Up Social</a></li>
+                        <li><a href="make_up_artistic.html">Make Up Artistico</a></li>
+                        <li><a href="bodypainting.html">Body Painting</a></li>
+                    </ul>
+                </li>  
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav> <!--fin barra de menú de navegación-->
+    </header><!--fin del encabezado-->
+    <main>
+    <!--Inicio del contenido-->
+        <section>
+            <div class="imgConsul">
+                <h1 class="titulosHtml">
+                    Consultas
+                </h1>
+            </div>
+            <article class="parForm">
+                <p>
+                    ¿Tenes alguna duda de mis servicios? Hablemos!
+                </p>
+            </article>
+        </section>
+        <!--inicia formulario de contacto-->
+        <section class="flexForm">
+            <form action="">
+                <fieldset>
+                    <label for="nombre">
+                        Nombre completo:
+                    </label>
+                    <input type="text" name="nombre"><br>
+                    <label for="email">
+                        E-mail:
+                    </label>
+                    <input type="email" name="email"><br>
+                    <label for="phone">
+                        Télefono
+                    </label>
+                    <input type="tel" id="phone" name="phone" placeholder="+549 11 2345 6789" pattern="[0-9]{13}"><br>
+                    <select name="servicios">
+                        <option value="">Servicios</option>
+                        <option value="social">MakeUp Social</option>
+                        <option value="artistic">MakeUp Artistico</option>
+                        <option value="body">BodyPainting</option>
+                    </select><br>
+                    <label for="comentario">
+                        Mensaje:
+                    </label><br>
+                    <textarea name="comentario"cols="40"rows="20"></textarea>
+                    <div>
+                        Quiero que me llames!
+                    </div>
+                    <input type="checkbox" name="acepta" value="1">
+                </fieldset>
+                <input type="submit"value="Enviar comentario">
+                <input type="reset"value="Limpiar formulario">    
+            </form><!--fin del formulario de contacto-->
+        </section>
+    </main><!--fin del contenido-->
+    <footer>
+    <!--inicio pie de pagina-->
+        <section>
+            <h2 class="logoPie">
+                A.R | artistic make up |
+            </h2>
+        </section>
+        <section>
+            <h2 class="piePagina">
+                Seguime en las Redes
+            </h2>
+            <article id="redes" class="piePagina">
+                <a href="https://www.facebook.com/">
+                    <img src="imagenes/facebook.png" alt="redesf">
+                </a>    
+                <a href="https://www.instagram.com/">
+                    <img src="imagenes/instagram.png" alt="redesi">
+                </a>
+                <a href="https://www.tiktok.com/">
+                    <img src="imagenes/tiktok.png" alt="redest">
+                </a>
+            </article>
+        </section>
+        <section class="copy">
+            <article>
+                Copyrigth Agustina Rodriguez-Artistic Makeup<br>
+                Designed by Sonsoles Grondona Fernandez
+            </article>
+        </section> 
+        </footer><!--fin pie de pagina-->
+</body>
+</html>
