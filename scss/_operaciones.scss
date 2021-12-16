@@ -1,0 +1,14 @@
+
+/*estilo en la seccion portafolio*/
+$servicios:Make;
+h4{
+    @if $servicios == Make{
+        color:blueviolet
+    } 
+}
+/* tamaño a los titulos*/
+@for $titulo from 1 through 5{
+    h#{$titulo}{
+        font-size:4rem /$titulo;
+    }
+}
